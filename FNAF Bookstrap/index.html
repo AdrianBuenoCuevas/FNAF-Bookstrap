@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nights at Freddy's - Tribute</title>
+    <!-- Enlace a Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./img/faviconfnaf.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/index.js"></script>
+</head>
+<body class="bg-dark text-white">
+
+<div class="container">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Five Nights at Freddy's</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#personaje">Personajes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="text-center" style="background-image: url('./img/herofnaf.png'); background-size: cover; height: 80vh;">
+        <a href="#intro" class="btn btn-primary mt-4">Get into the dark?</a>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section id="intro" class="mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="title">Introducción</h1>
+                <p>Five Nights at Freddy's es una famosa saga de videojuegos creado por Scott Cawthon. La historia trata sobre una pizzería donde por la noche los animatrónicos cobran vida. Eres el guardia de esa pizzería y tienes que tratar de sobrevivir la noche evitando ser atrapado por estos animatrónicos.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="./img/Fnaf_intro.jpg" alt="Personajes de Five Nights at Freddy's" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de personajes(GRID DE 4) -->
+    <section id="personaje" class="mt-5">
+        <h1 class="personaje text-center">Personajes</h1>
+        <div class="row">
+            <!-- Personajes FNAF -->
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./img/freddy.png" class="card-img-top text-black" alt="">
+                    <div class="card-body">
+                        <p class="card bg-dark">Freddy Fazbear es el principal antagonista de la saga, un animatrónico en forma de amigable oso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./img/Bonnie.png" class="card-img-top text-black" alt="">
+                    <div class="card-body">
+                        <p class="card bg-dark">Bonnie es el conejo guitarrista de esta terrorífica banda de animatrónicos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./img/Chica.webp" class="card-img-top text-black" alt="">
+                    <div class="card-body">
+                        <p class="card bg-dark">Chica es la pianista del grupo, la cual también trae consigo un extraño cupcake.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./img/Foxy.webp" class="card-img-top text-black" alt="">
+                    <div class="card-body">
+                        <p class="card bg-dark">Foxy el pirata, el "showman", con unas piernas muy rápidas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de imágenes -->
+    <section id="gallery" class="mt-5">
+        <h1 class="gallery text-center">Galería</h1>
+        <div class="row">
+            <!-- Juegos de la saga-->
+            <div class="col-lg-6">
+                <div class="gallery-item">
+                    <img src="./img/fnaf1.webp" alt="fnaf 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="gallery-item">
+                    <img src="./img/fnaf2.webp" alt="fnaf 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="gallery-item">
+                    <img src="./img/fnaf3.jpg" alt="fnaf 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="gallery-item">
+                    <img src="./img/fnaf4.jpg" alt="fnaf 1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acordeón -->
+    <section id="predictions" class="mt-5">
+        <div class="accordion" id="accordionPredictions">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+                            Five Nights at Freddy's 1
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionPredictions">
+                    <div class="card-body bg-dark">
+                        Ambientado en el ficticio restaurante de Freddy Fazbear's Pizza. El juego se centra en un guardia de seguridad nocturno defendiéndose del constante ataque de los defectuosos personajes animatrónicos del establecimiento, rastreando sus movimientos a través del edificio utilizando un sistema de cámaras de seguridad.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                            Five Nights at Freddy's 2
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionPredictions">
+                    <div class="card-body bg-dark">
+                        Todo comienza en 1987 (6 años antes del primer juego) donde Jeremy Fitzgerald acaba de comenzar a trabajar como guardia de seguridad de vigilancia nocturna en el restaurante familiar de Freddy Fazbear's Pizza. Cada noche, el tipo del teléfono deja un mensaje de voz por teléfono para explicarle tanto sus funciones como partes de la historia de fondo que rodea el restaurante, revelando que los modernizados personajes animatrónicos del establecimiento poseen un software de reconocimiento facial y acceso a una base de datos criminal para proteger a los niños de posibles daños.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Five Nights at Freddy's 3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionPredictions">
+                    <div class="card-body bg-dark">
+                        30 años después del cierre del primer Freddy Fazbear Pizza de 1985, en 2015, un empleado recién contratado es asignado como guardia de seguridad de vigilancia nocturna en Fazbear's Fright, una atracción con temática de terror basada en los misterios sin resolver del desaparecido restaurante familiar de Freddy Fazbear's Pizza, construida en el interior de un parque de atracciones local con parafernalia rescatada de los establecimientos originales. Durante la semana antes de que la atracción sea abierta al público, el empleado debe vigilar el edificio desde su oficina, utilizando una red de cámaras de seguridad instaladas en las habitaciones y los conductos de ventilación. Además, debe controlar el estado de tres sistemas operativos: cámaras, audio y ventilación, reiniciándolos cada vez que comiencen a fallar; asimismo, podrá ver fantasmas de animatrónicos de las anteriores entregas, pudiendo causar un mal funcionamiento de los sistemas, pero actuando sin hostilidad contra él.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Five Nights at Freddy's 4
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionPredictions">
+                    <div class="card-body bg-dark">
+                        En la historia de FNAF 4, William Afton se encargaba de secuestrar a niños y meterlos en un “experimento”, uno que consistía en llevar a niños a un complejo falso (en este caso una mansión), y someter a los individuos a un experimento para medir el miedo del ser humano.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contactos -->
+    <section id="contact" class="mt-5">
+        <footer class="bg-dark text-white">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Sígueme en redes</h3>
+                    <a href="#" class="btn btn-dark"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-dark"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-dark"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-dark"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-dark"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Site oficial</h3>
+                    <a href="https://freddy-fazbears-pizza.fandom.com/es/wiki/Five_Nights_at_Freddy%27s_Wiki" target="_blank" class="btn btn-dark">Wiki de FNAF</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+</div>
+
+<!-- Scripts de Bootstrap al final del body -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
