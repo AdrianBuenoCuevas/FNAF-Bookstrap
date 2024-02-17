@@ -10,8 +10,8 @@
 
 <h2 id="introduccion">Introducción</h2>
 <p>Trabajo realizado en clase por: Adrián Bueno Cuevas</p>
-<p>Proyecto de web "from scratch" de 1ª evaluación de Lenguajes de Marcas</p>
-<p>Diciembre de 2023 </p>
+<p>Proyecto de web "from scratch" de 2ª evaluación de Lenguajes de Marcas</p>
+<p>Febrero de 2024 </p>
 <p>Licencia CC-BY</p>
 
 <h2 id="motivacion">Motivación</h2>
